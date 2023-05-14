@@ -1,101 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  
+  <body>
     <header>
-        <h1>Musadaq Portfolio</h1>
-        
-        <nav>
-        <ul> 
-            <li><a href="#aboutMe">About Me</a></li>
-            <li><a href="#work">Work</a></li>
-            <li><a href="#contactMe">Contact Me</a></li>
-            <li><a href="#resume">Resume</a></li>
+      <h1><a href= "index.html">Musadaq Mohamoud</a></h1>
+      <nav>
+        <ul class="main-nav">
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+          <li><a href="#resume">Resume</a></li>
         </ul>
-        </nav>
+      </nav>
     </header>
-    
-    <section class="cool">
-        <h2>Student Developer on the come up</h2>
+
+    <section class="cool-section">
+        <div> 
+            <h2>Student Developer on the come up</h2>
+        </div>
     </section>
 
-    <section id="aboutMe" class="nav">
-    <div class="nav-title">
-    <h2>About Me</h2>
-    </div>
-
-     
-    <div class="body-content">
-        <img src="./profile.jpeg" alt="profile picture" class="photo">
-        <p>Hi, my name is Musadaq Mohamoud and I am a student fullstack developer and Here are my projects that I have worked on.</p>
-    </div>
+    <main class="container">
+    <section id="about-me" class="nav-section">
+        <h2>About Me</h2>
     </section>
-        
-    <section id="work" class="nav">
 
-    <div class="nav-title2">
-        <h2>Work</h2>
-    </div>
+    <section> 
+        <img src="./images/profile.jpeg" alt="profile picture" class="photo">
+        <p>Hi, my name is Musadaq Mohamoud and I am a student full-stack developer.</p>
+    </section>
+  
 
-    <div class="body-content2">
+    <section id="work" class="nav-section">
+        <h2>Work</h2> 
+    </section>
+      
+        <section id="portfolio">
+            <figure class="project1">
+              <a href="#">
+                <img src="./images/surf report.jpg"
+                    alt="project1"
+                    width="500"
+                    height="400"/>
 
-        <div class="project1">
-            <div class="surf-report">
-                <p><a href="https://www.vhv.rs/dpng/d/101-1019159_coming-soon-icon-hd-png-download.png">Surf Report</a><br/><font size="-0.5">MERN Stack</font></p>
-            </div>
-    </div>
+                <figcaption>
+                    <h3>Surf Report</h3>
+                    <p>MERN Stack</p>
+                </figcaption>
+                </a>
+            </figure>
 
-    <div class="Project2">
-        <div class="led-wall">
-            <p><a href="https://onewayeventproductions.com/wp-content/uploads/2020/02/AdobeStock_289192813.jpeg">LED WALL</a><br/><font size="-0.5">Node/IoT</font></p>
-        </div>
-    
-        <div class="Project3">
-            <p><a href="https://images.rawpixel.com/image_1000/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcHgxMTA1NzYtaW1hZ2Uta3d2eTRhdnIta3d2eW54OGQuanBn.jpg">Calculator</a><br/><font size="-0.5">React/JavaScript/CSS</font></p>
-        </div>
-    
-    
-    
-    
-    
-    </div>
+            <figure class="project2">
+                <a href="#">
+                  <img src="./images/led.jpg"
+                      alt="project2"
+                      width="500"
+                      height="200"/>
+  
+                  <figcaption>
+                      <h3>LED Wall</h3>
+                      <p>Node/IoT</p>
+                  </figcaption>
+                  </a>
+                </figure>
+            
+              <figure class="project3">
+                <a href="#">
+                  <img src="./images/calculator.jpg"
+                      alt="project3"
+                      width="500"
+                      height="200"/>
+  
+                  <figcaption>
+                      <h3>Calculator</h3>
+                      <p>React/JavaScript/CSS</p>
+                  </figcaption>
+                  </a>
+                </figure>
 
-    
+              <figure class="project4">
+                <a href="#">
+                  <img src="./images/puzzle pastel.jpg"
+                      alt="project4"
+                      width="500"
+                      height="200"/>
+  
+                  <figcaption>
+                      <h3>Pastel Puzzels</h3>
+                      <p>MERN Stack</p>
+                  </figcaption>
+                  </a>
+                </figure>
+
+              <figure class="project5">
+                <a href="#">
+                  <img src="./images/runbuddy.jpg"
+                      alt="project5"
+                      width="500"
+                      height="200"/>
+  
+                  <figcaption>
+                      <h3>Run Buddy</h3>
+                      <p>HTML/CSS</p>
+                  </figcaption>
+                  </a>
+                </figure>
+        </section>
 
 
 
+    <section class="contact-section" id="contact">
+        <h2>Contact Me</h2>
+    </section>
 
-
-</section>
-
-    
+    <section> 
+            <ul class="footer">
+                <li>
+                <a href="mailto:musadaq23@hotmail.com">Email</a>
+                </li>
+                <li>
+                <a href="https://github.com/musadaq23">Github</a>
+                </li>
+                <li>
+                <a href="https://www.twitter.com">Twitter</a>
+                </li>
+                <li>
+                <a href="https://www.linkedin.com">Linkedin</a>
+                </li>
+            </ul>
+    </section>
+</main>
 </body>
-<footer class="footer-section">
-    <h1>Contact Me</h1>
-<div class="socials">
-    <ul>
-        <li>
-            <a href="mailto:musadaq23@hotmail.com">Email</a>
-        </li>
-        <li>
-            <a href="https://github.com/musadaq23">Github</a>
-        </li>
-        <li>
-            <a href="https://www.twitter.com">Twitter</a>
-        </li>
-        <li>
-            <a href="https://www.linkedin.com">Linkedin</a>
-        </li>
-    </ul>
-</div>
-</footer>
-
-
 </html>
